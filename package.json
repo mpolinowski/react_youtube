@@ -1,7 +1,7 @@
 {
-  "name": "redux-simple-starter",
+  "name": "react-youtube",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Simple Youtube Search application written in React.js on a Webpack & Babel boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
