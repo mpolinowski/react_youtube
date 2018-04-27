@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import _ from 'lodash';
 
 import YTSearch from 'youtube-api-search';
 import SearchBar from './components/search_bar';
@@ -34,9 +33,6 @@ class App extends Component {
   }
 
   render() {
-
-    const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 500) // Lodash debounce creates a function that can only be called every 300ms
-
     return (
       <div>
           <SearchBar onSearchTermChange={videoSearch} />
